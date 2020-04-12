@@ -2,7 +2,8 @@
 
 echo "Enter the pincode"
 read pinCode
-pinCodePattern="^[1-9]{1}[0-9]{5}$"
+# indian pincode start with (1-9)
+pinCodePattern="^[1-9]{1}[0-9]{2}[ ][0-9]{3}$"
 
 # check for pincode validation
 function validation()
