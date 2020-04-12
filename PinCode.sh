@@ -2,7 +2,7 @@
 
 echo "Enter the pincode"
 read pinCode
-pinCodePattern="^[0-9]{6}$"
+pinCodePattern="^[1-9]{1}[0-9]{5}$"
 
 # check for pincode validation
 function validation()
